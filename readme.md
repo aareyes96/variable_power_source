@@ -10,7 +10,7 @@ This Variable Power Supply is built by modifying an old PC ATX power supply and 
 
 ## Features
 
-* Complete range ( from 0V to 30V and 0A to 15A ) control with a maximun presition for a wide range.
+* Complete range ( from 0V to 30V and 0A to 15A ) control with a maximun precision for a wide range.
 * Fast shortcircuit protecction.
 * Minimun modifications maded to ATX Power Supply.
 * Nice and clear interface.
