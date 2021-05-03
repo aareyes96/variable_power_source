@@ -10,9 +10,9 @@ This Variable Power Supply is built by modifying an old PC ATX power supply and 
 
 ## Features
 
-* Complete range ( from 0V to 30V and 0A to 15A ) control with a maximun precision for a wide range.
-* Fast shortcircuit protecction.
-* Minimun modifications maded to ATX Power Supply.
+* Complete range ( from 0V to 30V and 0A to 15A ) control with a maximum precision for a wide range.
+* Fast short-circuit protection.
+* Minimum modifications made to ATX Power Supply.
 * Nice and clear interface.
 * ~~5V (of Standby supply) for USB plug~~ (Not supported yet).
 * small design (all into ATX chassis) by choice.
@@ -29,7 +29,7 @@ This Variable Power Supply is built by modifying an old PC ATX power supply and 
 ## Softwares Used
 
 * STM32CubeIDE 1.3.0 (Firmware and Debug).
-* KiCAD (Shematic and PCB).
+* KiCAD (Schematic and PCB).
 * NI Multisim 14.0 (Simulations).
 
 
