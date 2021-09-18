@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\iWork\ELECTRONICA\PROYECTOS_EN_STM32CubeIDE\variable_power_source\New_pcb_and_schematic\PSU_mainboard\PSU_main\PSU_main.sch</source>
+    <date>20/06/2021 8:40:24</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PSU mod Main Board</title>
+        <company/>
+        <rev>1.1</rev>
+        <date/>
+        <source>PSU_main.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J10">
+      <value>LCD 16x2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6094FE77</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6095618B</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6095795C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609838B6</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609840DF</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60984834</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60984C14</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609886F8</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609A2019</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609A201F</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>20K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609A2025</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609A202B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609A2031</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RSHUNT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609A2046</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609AF05F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>PIN_16_TL494</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609AF065</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>5.1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609C6DB8</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609C6DBE</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609C6DC4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609C6DCA</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>PIN_2_TL494</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609C6DE1</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609C6DD0</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609F38A2</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609F41D0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609F4635</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609F5E02</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609F8F37</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BD139</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BD139" description="1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A19711</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>PSU FAN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A1E06A</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A2A291</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>SW_STBY</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A33B15</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>PS_ON</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A3485F</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A352C1</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Pin_1_TL494</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A461E8</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A4677E</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A47343</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>+5V INPUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A5E8A8</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A5FC25</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A60D8C</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>12_SIMETRICOS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A7EF59</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A7FF3A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A818CF</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A8296E</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>FRONT_PANEL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB6777</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM324</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6096FCEB</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609FBC4B</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609FCFF4</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609FE2F1</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9335E</tstamp>
+    </comp>
+    <comp ref="BP1">
+      <value>BluePill_1</value>
+      <footprint>ANDY:YAAJ_BluePill</footprint>
+      <libsource lib="YAAJ_STM32" part="BluePill_1" description="STM32 Blue Pill"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A1D59F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM2902">
+      <aliases>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33174</alias>
+        <alias>MC33179</alias>
+        <alias>OPA1604</alias>
+        <alias>OPA1679</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+        <alias>TSV994</alias>
+      </aliases>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2902</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BD139">
+      <aliases>
+        <alias>BD135</alias>
+        <alias>BD137</alias>
+        <alias>BD233</alias>
+        <alias>BD235</alias>
+        <alias>BD237</alias>
+      </aliases>
+      <description>1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126</description>
+      <docs>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</docs>
+      <footprints>
+        <fp>TO?126*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BD139</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-126-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAAJ_STM32" part="BluePill_1">
+      <description>STM32 Blue Pill</description>
+      <fields>
+        <field name="Reference">BP?</field>
+        <field name="Value">BluePill_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB12" type="BiDi"/>
+        <pin num="2" name="PB13" type="BiDi"/>
+        <pin num="3" name="PB14" type="BiDi"/>
+        <pin num="4" name="PB15" type="BiDi"/>
+        <pin num="5" name="PA8" type="BiDi"/>
+        <pin num="6" name="PA9" type="BiDi"/>
+        <pin num="7" name="PA10" type="BiDi"/>
+        <pin num="8" name="PA11" type="BiDi"/>
+        <pin num="9" name="PA12" type="BiDi"/>
+        <pin num="10" name="PA15" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB4" type="BiDi"/>
+        <pin num="13" name="PB5" type="BiDi"/>
+        <pin num="14" name="PB6" type="BiDi"/>
+        <pin num="15" name="PB7" type="BiDi"/>
+        <pin num="16" name="PB8" type="BiDi"/>
+        <pin num="17" name="PB9" type="BiDi"/>
+        <pin num="18" name="5V" type="power_out"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="3V3" type="power_out"/>
+        <pin num="21" name="VBat" type="power_in"/>
+        <pin num="22" name="PC13" type="BiDi"/>
+        <pin num="23" name="PC14" type="BiDi"/>
+        <pin num="24" name="PC15" type="BiDi"/>
+        <pin num="25" name="PA0" type="BiDi"/>
+        <pin num="26" name="PA1" type="BiDi"/>
+        <pin num="27" name="PA2" type="BiDi"/>
+        <pin num="28" name="PA3" type="BiDi"/>
+        <pin num="29" name="PA4" type="BiDi"/>
+        <pin num="30" name="PA5" type="BiDi"/>
+        <pin num="31" name="PA6" type="BiDi"/>
+        <pin num="32" name="PA7" type="BiDi"/>
+        <pin num="33" name="PB0" type="BiDi"/>
+        <pin num="34" name="PB1" type="BiDi"/>
+        <pin num="35" name="PB10" type="BiDi"/>
+        <pin num="36" name="PB11" type="BiDi"/>
+        <pin num="37" name="RST" type="input"/>
+        <pin num="38" name="3V3" type="power_out"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="YAAJ_STM32">
+      <uri>D:/CURSOS/KiCAD/librerias/Kicad-STM32-master/Symbols/YAAJ_STM32.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J6" pin="8"/>
+      <node ref="BP1" pin="38"/>
+    </net>
+    <net code="2" name="Net-(BP1-Pad16)">
+      <node ref="J6" pin="7"/>
+      <node ref="BP1" pin="16"/>
+    </net>
+    <net code="3" name="Net-(BP1-Pad17)">
+      <node ref="BP1" pin="17"/>
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="J14" pin="3"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="R5" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J12" pin="2"/>
+      <node ref="BP1" pin="19"/>
+      <node ref="BP1" pin="40"/>
+      <node ref="BP1" pin="39"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J11" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="J10" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J14" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="6" name="11">
+      <node ref="C8" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="7" name="Net-(R11-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R11-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="10" name="Net-(R10-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R9-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="13" name="Net-(BP1-Pad10)">
+      <node ref="BP1" pin="10"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="14" name="Net-(BP1-Pad5)">
+      <node ref="BP1" pin="5"/>
+      <node ref="J6" pin="4"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="15" name="Net-(BP1-Pad11)">
+      <node ref="J6" pin="5"/>
+      <node ref="BP1" pin="11"/>
+    </net>
+    <net code="16" name="B4">
+      <node ref="R18" pin="2"/>
+      <node ref="BP1" pin="12"/>
+    </net>
+    <net code="17" name="Net-(J13-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="18" name="Net-(J8-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="19" name="A10">
+      <node ref="R17" pin="2"/>
+      <node ref="BP1" pin="7"/>
+    </net>
+    <net code="20" name="+5V">
+      <node ref="C5" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="J10" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="BP1" pin="18"/>
+      <node ref="J12" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="21" name="Net-(BP1-Pad20)">
+      <node ref="BP1" pin="20"/>
+    </net>
+    <net code="22" name="Net-(BP1-Pad2)">
+      <node ref="BP1" pin="2"/>
+    </net>
+    <net code="23" name="Net-(BP1-Pad15)">
+      <node ref="BP1" pin="15"/>
+    </net>
+    <net code="24" name="Net-(BP1-Pad14)">
+      <node ref="BP1" pin="14"/>
+    </net>
+    <net code="25" name="Net-(BP1-Pad13)">
+      <node ref="BP1" pin="13"/>
+    </net>
+    <net code="26" name="Net-(BP1-Pad1)">
+      <node ref="BP1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(BP1-Pad21)">
+      <node ref="BP1" pin="21"/>
+    </net>
+    <net code="28" name="Net-(BP1-Pad33)">
+      <node ref="J10" pin="6"/>
+      <node ref="BP1" pin="33"/>
+    </net>
+    <net code="29" name="Net-(BP1-Pad9)">
+      <node ref="BP1" pin="9"/>
+    </net>
+    <net code="30" name="Net-(BP1-Pad8)">
+      <node ref="BP1" pin="8"/>
+    </net>
+    <net code="31" name="Net-(BP1-Pad6)">
+      <node ref="BP1" pin="6"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="32" name="Net-(BP1-Pad4)">
+      <node ref="BP1" pin="4"/>
+    </net>
+    <net code="33" name="Net-(BP1-Pad37)">
+      <node ref="BP1" pin="37"/>
+    </net>
+    <net code="34" name="Net-(BP1-Pad36)">
+      <node ref="BP1" pin="36"/>
+      <node ref="J10" pin="9"/>
+    </net>
+    <net code="35" name="Net-(BP1-Pad35)">
+      <node ref="BP1" pin="35"/>
+      <node ref="J10" pin="8"/>
+    </net>
+    <net code="36" name="Net-(BP1-Pad34)">
+      <node ref="BP1" pin="34"/>
+      <node ref="J10" pin="7"/>
+    </net>
+    <net code="37" name="Net-(BP1-Pad3)">
+      <node ref="BP1" pin="3"/>
+    </net>
+    <net code="38" name="Net-(BP1-Pad28)">
+      <node ref="BP1" pin="28"/>
+    </net>
+    <net code="39" name="Net-(BP1-Pad27)">
+      <node ref="BP1" pin="27"/>
+    </net>
+    <net code="40" name="A1">
+      <node ref="R15" pin="2"/>
+      <node ref="BP1" pin="26"/>
+    </net>
+    <net code="41" name="A0">
+      <node ref="BP1" pin="25"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="42" name="Net-(BP1-Pad24)">
+      <node ref="BP1" pin="24"/>
+    </net>
+    <net code="43" name="Net-(BP1-Pad23)">
+      <node ref="BP1" pin="23"/>
+    </net>
+    <net code="44" name="Net-(BP1-Pad22)">
+      <node ref="BP1" pin="22"/>
+    </net>
+    <net code="45" name="+12V">
+      <node ref="U1" pin="4"/>
+      <node ref="J7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J14" pin="1"/>
+    </net>
+    <net code="46" name="Vout">
+      <node ref="R20" pin="2"/>
+      <node ref="J11" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="47" name="Net-(BP1-Pad29)">
+      <node ref="BP1" pin="29"/>
+      <node ref="J10" pin="4"/>
+    </net>
+    <net code="48" name="Net-(BP1-Pad30)">
+      <node ref="J10" pin="5"/>
+      <node ref="BP1" pin="30"/>
+    </net>
+    <net code="49" name="Net-(J10-Pad10)">
+      <node ref="R19" pin="2"/>
+      <node ref="J10" pin="10"/>
+    </net>
+    <net code="50" name="Net-(R3-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="51" name="Net-(C3-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="52" name="A6">
+      <node ref="R2" pin="2"/>
+      <node ref="BP1" pin="31"/>
+    </net>
+    <net code="53" name="A7">
+      <node ref="R8" pin="2"/>
+      <node ref="BP1" pin="32"/>
+    </net>
+    <net code="54" name="Net-(J10-Pad3)">
+      <node ref="RV1" pin="2"/>
+      <node ref="J10" pin="3"/>
+    </net>
+    <net code="55" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="56" name="Net-(J5-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="57" name="Net-(Q1-Pad3)">
+      <node ref="R17" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="58" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="59" name="Net-(C2-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="60" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="61" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="62" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+  </nets>
+</export>
