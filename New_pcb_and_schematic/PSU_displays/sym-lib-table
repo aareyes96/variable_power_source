@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name PSU_displays-rescue)(type Legacy)(uri ${KIPRJMOD}/PSU_displays-rescue.lib)(options "")(descr ""))
-)
