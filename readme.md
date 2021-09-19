@@ -6,7 +6,8 @@ This Variable Power Supply is built by modifying an old PC ATX power supply and 
 
 >### _**Here the microcontroller control board is made to achieve better control precision. It also provides a real-time current, voltage and power measurement.**_
 
-### _**A complete tutorial for make this Variable Power Supply are coming...**_
+### _**A complete tutorial for make this Variable Power Supply is now available!!!**_
+### _**https://www.sysadminsdecuba.com/2021/09/convierta-una-fuente-de-computadora-atx-en-una-fuente-variable-0-30v-0-15a/**_
 
 ## Features
 
