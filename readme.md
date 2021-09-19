@@ -40,7 +40,7 @@ This Variable Power Supply is built by modifying an old PC ATX power supply and 
 
 ## Preview
 
-![PCB](Schematic_and_PCB/pcb_preview.png)
-![PCB](Schematic_and_PCB/3d_preview.png)
+![PCB](Schematic_and_PCB/pcb_preview_1.jpg)
+![PCB](Schematic_and_PCB/pcb_preview_2.jpg)
 
 
